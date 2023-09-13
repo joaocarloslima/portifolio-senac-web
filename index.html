@@ -70,6 +70,51 @@
             </li>
         </ul>
     </section>
+
+    <section id="secao-orcamento">
+        <h2>Simule um orçamento para o seu site</h2>
+
+        <form action="" id="form-orcamento">
+            <div class="campo linha">
+                <label for="nome">nome</label>
+                <input type="text" id="nome">
+            </div>
+
+            <div class="campo">
+                <label for="qtde">qtde de páginas</label>
+                <input type="number" min="1" id="qtde">
+            </div>
+            
+            <div class="campo">
+                <label for="tipo">tipo</label>
+                <select name="tipo" id="tipo">
+                    <option value="">estático</option>
+                    <option value="">dinâmico</option>
+                </select>
+            </div>
+
+            <div class="campo linha">
+                <label for="layout">precisa de layout?</label>
+                <div>
+                    <input name="layout" type="radio" id="layout_sim">
+                    <label for="layout_sim">sim, preciso</label>
+                    <input name="layout" type="radio" id="layout_nao">
+                    <label for="layout_nao">não, já tenho</label>
+                </div>
+            </div>
+
+            <div class="linha">
+                <input type="checkbox" id="js">
+                <label for="js">meu site precisa de javascript</label>
+            </div>
+
+            <div class="campo linha">
+                <label for="prazo">prazo</label>
+                <input type="range" id="prazo">
+            </div>
+
+        </form>
+    </section>
     
 </body>
 </html>

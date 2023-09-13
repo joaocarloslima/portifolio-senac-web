@@ -84,7 +84,7 @@ span {
 
 #secao-apresentacao {
     display: flex;
-    height: 50vh;
+    height: 100vh;
     padding: 6rem;
     gap: 2rem;
 }
@@ -160,3 +160,29 @@ span {
 .card p {
     color: #FFF;
 }
+
+#secao-orcamento{
+    height: 100vh;
+    padding: 3rem;
+}
+
+#form-orcamento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    background-color: #e0dfe4;
+    max-width: 500px;
+    border-radius: .5rem;
+    padding: 2rem;
+    margin: 2rem auto;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    grid-column: 1 / 3;
+}
+
