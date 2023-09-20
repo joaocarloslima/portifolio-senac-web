@@ -186,3 +186,25 @@ span {
     grid-column: 1 / 3;
 }
 
+input[type="text"],
+input[type="number"],
+select{
+    background-color: #ADADBC;
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    outline: none;
+}
+
+input[type="checkbox"],
+input[type="range"],
+input[type="radio"]{
+    accent-color: #ADADBC;
+}
+
+
+input:focus {
+    border: solid 1px #2a1c8a;
+}
+
+
