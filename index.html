@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
 
@@ -88,8 +89,8 @@
             <div class="campo">
                 <label for="tipo">tipo</label>
                 <select name="tipo" id="tipo">
-                    <option value="">estático</option>
-                    <option value="">dinâmico</option>
+                    <option value="1">estático</option>
+                    <option value="2">dinâmico</option>
                 </select>
             </div>
 
@@ -110,8 +111,10 @@
 
             <div class="campo linha">
                 <label for="prazo">prazo</label>
-                <input type="range" id="prazo">
+                <input type="range" id="prazo" min="2" max="10">
             </div>
+            
+            <output>R$ 100,00</output>
 
         </form>
     </section>

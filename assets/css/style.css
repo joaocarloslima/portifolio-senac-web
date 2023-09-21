@@ -202,7 +202,6 @@ input[type="radio"]{
     accent-color: #ADADBC;
 }
 
-
 input:focus {
     border: solid 1px #2a1c8a;
 }
