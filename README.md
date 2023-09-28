@@ -4,8 +4,8 @@ Site de portifólio pessoal. Projeto da disciplina de PW do Centro Universitári
 ## Tarefas
 
 - [x] Header
-- [ ] Apresentação
-- [ ] Projetos
-- [ ] Orçamento
-- [ ] Menu
+- [x] Apresentação
+- [x] Projetos
+- [x] Orçamento
+- [x] Menu
 - [ ] Responsividade

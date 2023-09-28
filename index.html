@@ -6,11 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/menu.js" defer></script>
 </head>
 <body>
 
-    <header>
+    <div id="menu-icon">
+        <span class="material-symbols-outlined">
+            menu
+        </span>
+    </div>
+
+    <aside id="menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+                            <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                            <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                        </svg>
+                          
+                       <span>home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#secao-apresentacao">apresentação</a>
+                </li>
+                <li>
+                    <a href="#secao-projetos">projetos</a>
+                </li>
+                <li>
+                    <a href="#secao-orcamento">orçamento</a>
+                </li>
+            </ul>
+
+        </nav>
+    </aside>
+
+    <header id="home">
         <h1>João Carlos Lima</h1>
         <span>Developer Web e Mobile</span>
         <a href="#secao-apresentacao" class="botao">saiba mais</a>
@@ -21,7 +56,7 @@
         <div>
             <h2>Programando e ensinando desde 1970</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusamus perferendis commodi asperiores a? Ipsam quibusdam labore maxime animi, rem omnis voluptas tenetur ipsum pariatur iusto in commodi id cupiditate sunt quae dolorum! Doloremque nihil commodi cum quisquam veritatis animi a vitae ullam maxime, eaque assumenda eligendi eum vero doloribus.</p>
-            <a href="#" class="botao">ver projetos</a>
+            <a href="#secao-projetos" class="botao">ver projetos</a>
         </div>
     </section>
 
